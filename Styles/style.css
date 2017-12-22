@@ -56,13 +56,13 @@ div {
   margin-right: 50px;
   margin-left: 25px;
 }
-.textParagraph2 {
+.rightContent {
   margin-right: 50px;
   margin-left: 25px;
   height: 100%;
 }
 
-.sectionText {
+.leftHeader {
   word-spacing: 0;
   margin: 10px 0;
   text-align: center;
@@ -72,7 +72,7 @@ div {
   font-family: "Roboto Slab", serif;
 }
 
-.mainText {
+.leftText {
   text-align: justify;
   word-spacing: -2px;
   color: black;
@@ -101,13 +101,13 @@ div {
   font-family: "Roboto Slab", serif;
 }
 
-.treats {
+.treatsImg {
   display: block;
   margin-left: 110px;
   margin-top: 10px;
   width: 60%;
 }
-.dogCat {
+.dogCatImg {
   display: block;
   margin-left: 65px;
   margin-right: 20px;
@@ -115,7 +115,7 @@ div {
   width: 76%;
 }
 
-.sectionTextRight {
+.rightHeader {
   word-spacing: 0;
   text-align: center;
   color: #384ca1;
@@ -126,17 +126,17 @@ div {
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
-  .sectionText {
+  .leftHeader {
     font-size: 24px;
   }
-  .sectionTextRight {
+  .rightHeader {
     font-size: 14px;
   }
-  .mainText {
+  .leftText {
     font-size: 15px;
     margin-left: 50px;
   }
-  .sectionTextRight {
+  .rightHeader {
     font-size: 25px;
   }
   .rightSidetext2 {
@@ -154,31 +154,31 @@ div {
     margin-right: 40px;
     margin-left: -35px;
   }
-  .dogCat {
+  .dogCatImg {
     /*margin-top: 0;*/
     margin-bottom: 5px;
     width: 70%;
     margin-left: 65px;
   }
-  .treats {
+  .treatsImg {
     width: 70%;
     margin-left: 35px;
   }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .sectionText {
+  .leftHeader {
     font-size: 15px;
   }
-  .sectionTextRight {
+  .rightHeader {
     font-size: 14px;
   }
-  .mainText {
+  .leftText {
     font-size: 9px;
     margin-left: 27px;
     word-spacing: 1px;
   }
-  .sectionTextRight {
+  .rightHeader {
     font-size: 15px;
     margin-left: -23px;
   }
@@ -197,7 +197,7 @@ div {
     margin-right: 40px;
     margin-left: -27px;
   }
-  .dogCat {
+  .dogCatImg {
     /*margin-top: 0;*/
     margin-bottom: 5px;
     width: 71%;
@@ -205,8 +205,8 @@ div {
     padding-bottom: 10px;
 
   }
-  .treats {
-    width: 72%;
+  .treatsImg {
+    width: 74%;
     margin-left: 9px;
   }
 }
