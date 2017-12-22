@@ -1,18 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 p {
   padding: 10px;
 }
 
-
-body, html, section, div {
+body,
+html,
+div {
   /*position: fixed;*/
-width: 100%
-height: 100%
+  width: 100%;
 }
 
 #banner-content {
@@ -31,6 +30,7 @@ height: 100%
   left: 0;
   top: 0;
   width: 50%;
+  /*float: left;*/
   /*height: 100%;*/
 
   /*overflow: auto;*/
@@ -41,9 +41,8 @@ height: 100%
   right: 0;
   top: 0;
   width: 50%;
+  /*float: right;*/
 }
-
-
 
 #dogImage {
   margin-top: 70px;
@@ -51,6 +50,7 @@ height: 100%
 }
 #dogWomenImage {
   width: 100%;
+  margin-top: 15px;
 }
 
 .textParagraph {
@@ -78,9 +78,9 @@ height: 100%
   text-align: justify;
   word-spacing: -2px;
   color: black;
-  font-size: 25px;
+  font-size: 23px;
   width: 90%;
-  margin-left: 30px;
+  margin-left: 10px;
   font-family: "Roboto Slab", serif;
 }
 
@@ -115,10 +115,12 @@ height: 100%
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  width: 90%;
-  margin-bottom: 14px;
-
+  margin-top: 30px;
+  width: 76%;
+  /*margin-bottom: 14px;*/
+}
+.clearfix {
+  clear: both;
 }
 
 .sectionTextRight {
@@ -131,14 +133,8 @@ height: 100%
   font-family: "Roboto Slab", serif;
 }
 
-
-
 /* For mobile phones: */
 @media screen and (max-width: 768px) {
-  body {
-      background-color: black
-      height: 100%;
-  }
   .sectionText {
     font-size: 14px;
   }
@@ -154,12 +150,12 @@ height: 100%
   .rightSidetext2 {
     font-size: 11px;
     margin-left: -9px;
-    margin-right:-40px;
+    margin-right: -40px;
   }
   .rightSidetext {
     font-size: 11px;
     margin-left: -9px;
-    margin-right:-40px;
+    margin-right: -40px;
   }
   .textParagraph {
     text-align: center;
@@ -170,7 +166,6 @@ height: 100%
     /*margin-top: 0;*/
     margin-bottom: 5px;
     width: 100%;
-
   }
   .treats {
     width: 100%;
