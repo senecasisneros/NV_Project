@@ -3,73 +3,110 @@
   padding: 0;
 }
 
-body {
-  background: linear-gradient(
-    to right,
-    white 0%,
-    white 50%,
-    #f8e9d5 50%,
-    #f8e9d5 100%
-  );
+p {
+  padding: 10px;
 }
-
-div#banner {
+#left {
   position: absolute;
-  top: 0;
   left: 0;
-  background-color: #4d7f71;
-  width: 100%;
+  top: 0;
+  width: 50%;
 }
-div#banner-content {
-  width: 100%;
-  margin: 0 auto;
-  padding: 50px;
-}
-div#main-content {
-  padding-top: 70px;
+#right {
+  background-color: #f8e9d5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
 }
 
 #dogImage {
-  margin-top: 100px;
-  margin-right: 5px;
-  width: 50%;
+  margin-top: 50px;
+  /*margin-right: 5px;*/
+  width: 100%;
 }
 #dogWomenImage {
-  margin-right: 5px;
-  width: 50%;
+  /*margin-right: 5px;*/
+  width: 100%;
 }
 
 .textParagraph {
-  margin-right: 115px;
-  margin-left: 35px;
+  margin-right: 50px;
+  margin-left: 25px;
 }
 
 .sectionText {
-  margin-right: 10px;
   word-spacing: 0;
-  margin-top: 10px;
+  margin: 10px 0;
   text-align: center;
-  float: left;
   color: #384ca1;
-  font-size: 68px;
-  width: 50%;
+  font-size: 48px;
+  width: 100%;
   font-family: "Roboto Slab", serif;
+  /*line-height: 100%;*/
 }
 
 .mainText {
   text-align: justify;
-  margin-right: 10px;
-  /*word-spacing: 0;*/
-  margin-top: 15px;
-  float: left;
+  word-spacing: -2px;
   color: black;
-  font-size: 15px;
-  width: 50%;
+  font-size: 25px;
+  width: 90%;
+  margin-left: 35px;
+  font-family: "Roboto Slab", serif;
+}
+
+.rightSidetext {
+  text-align: justify;
+  word-spacing: -2px;
+  color: black;
+  /*width: 90%;*/
+  margin: 0 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.rightSidetext2 {
+  margin: 0 50px;
+  text-align: justify;
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+.treats {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 60%;
+}
+.dogCat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.sectionTextRight {
+  word-spacing: 0;
+  text-align: center;
+  color: #384ca1;
+  font-size: 40px;
+  margin: 20px 0;
+  width: 100%;
   font-family: "Roboto Slab", serif;
 }
 
 @media screen and (max-width: 768px) {
   .sectionText {
-    font-size: 15px;
+    font-size: 20px;
+  }
+  .mainText.sectionTextRight {
+    font-size: 10px;
+  }
+  img {
+    width: 25%;
   }
 }
