@@ -175,11 +175,11 @@ div {
   }
   .leftText {
     font-size: 9px;
-    margin-left: 27px;
+    margin-left: 0;
     word-spacing: 1px;
   }
   .rightHeader {
-    font-size: 15px;
+    font-size: 10px;
     margin-left: -23px;
   }
   .rightSidetext2 {
@@ -200,13 +200,13 @@ div {
   .dogCatImg {
     /*margin-top: 0;*/
     margin-bottom: 5px;
-    width: 71%;
+    width: 73%;
     margin-left: 2px;
     padding-bottom: 10px;
 
   }
   .treatsImg {
-    width: 74%;
+    width: 73%;
     margin-left: 9px;
   }
 }
