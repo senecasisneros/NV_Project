@@ -13,6 +13,7 @@ div {
   width: 100%;
 }
 
+/*topBanner*/
 #banner-content {
   background-color: #4d7f71;
   position: absolute;
@@ -23,43 +24,13 @@ div {
   z-index: 10;
 }
 
+/*Left Side*/
 #left {
   background-color: white;
   position: absolute;
   left: 0;
   top: 0;
   width: 50%;
-}
-#right {
-  background-color: #f8e9d5;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%;
-}
-
-#dogImage {
-  margin-top: 70px;
-  width: 100%;
-}
-#dogWomenImage {
-  width: 100%;
-  margin-top: 15px;
-}
-
-.wrapper {
-  height: 100%;
-  overflow: auto;
-}
-
-.textParagraph {
-  margin-right: 50px;
-  margin-left: 25px;
-}
-.rightContent {
-  margin-right: 50px;
-  margin-left: 25px;
-  height: 100%;
 }
 
 .leftHeader {
@@ -78,8 +49,23 @@ div {
   color: black;
   font-size: 23px;
   width: 90%;
-  margin-left: 10px;
+  margin-left: 25px;
   font-family: "Roboto Slab", serif;
+}
+
+/*Right Side*/
+#right {
+  background-color: #f8e9d5;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.rightContent {
+  margin-right: 50px;
+  margin-left: 25px;
+  height: 100%;
 }
 
 .rightSidetext {
@@ -101,6 +87,26 @@ div {
   font-family: "Roboto Slab", serif;
 }
 
+.rightHeader {
+  word-spacing: 0;
+  text-align: center;
+  color: #384ca1;
+  font-size: 40px;
+  margin: 20px 0;
+  width: 100%;
+  font-family: "Roboto Slab", serif;
+}
+
+/*Images*/
+#dogImage {
+  margin-top: 70px;
+  width: 100%;
+}
+#dogWomenImage {
+  width: 100%;
+  margin-top: 15px;
+}
+
 .treatsImg {
   display: block;
   margin-left: 110px;
@@ -115,16 +121,6 @@ div {
   width: 76%;
 }
 
-.rightHeader {
-  word-spacing: 0;
-  text-align: center;
-  color: #384ca1;
-  font-size: 40px;
-  margin: 20px 0;
-  width: 100%;
-  font-family: "Roboto Slab", serif;
-}
-
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
   .leftHeader {
     font-size: 24px;
@@ -134,10 +130,11 @@ div {
   }
   .leftText {
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 13px;
   }
   .rightHeader {
     font-size: 25px;
+    margin-left: -20px;
   }
   .rightSidetext2 {
     font-size: 15px;
@@ -158,7 +155,7 @@ div {
     /*margin-top: 0;*/
     margin-bottom: 5px;
     width: 70%;
-    margin-left: 65px;
+    margin-left: 43px;
   }
   .treatsImg {
     width: 70%;
@@ -200,14 +197,12 @@ div {
   .dogCatImg {
     /*margin-top: 0;*/
     margin-bottom: 5px;
-    width: 73%;
+    width: 74%;
     margin-left: 2px;
     padding-bottom: 10px;
-
   }
   .treatsImg {
-    width: 73%;
+    width: 75%;
     margin-left: 9px;
   }
-}
 }
