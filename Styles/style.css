@@ -174,8 +174,9 @@ div {
     font-size: 14px;
   }
   .mainText {
-    font-size: 10px;
+    font-size: 9px;
     margin-left: 27px;
+    word-spacing: 1px;
   }
   .sectionTextRight {
     font-size: 15px;
@@ -199,13 +200,14 @@ div {
   .dogCat {
     /*margin-top: 0;*/
     margin-bottom: 5px;
-    width: 80%;
-    margin-left: -10px;
-    padding-bottom: 8px;
+    width: 71%;
+    margin-left: 2px;
+    padding-bottom: 10px;
+
   }
   .treats {
-    width: 80%;
-    margin-left: -6px;
+    width: 70%;
+    margin-left: 9px;
   }
 }
 }
