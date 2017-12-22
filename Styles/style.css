@@ -10,7 +10,6 @@ p {
 body,
 html,
 div {
-  /*position: fixed;*/
   width: 100%;
 }
 
@@ -30,10 +29,6 @@ div {
   left: 0;
   top: 0;
   width: 50%;
-  /*float: left;*/
-  /*height: 100%;*/
-
-  /*overflow: auto;*/
 }
 #right {
   background-color: #f8e9d5;
@@ -41,7 +36,6 @@ div {
   right: 0;
   top: 0;
   width: 50%;
-  /*float: right;*/
 }
 
 #dogImage {
@@ -51,6 +45,11 @@ div {
 #dogWomenImage {
   width: 100%;
   margin-top: 15px;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: auto;
 }
 
 .textParagraph {
@@ -71,7 +70,6 @@ div {
   font-size: 48px;
   width: 100%;
   font-family: "Roboto Slab", serif;
-  /*line-height: 100%;*/
 }
 
 .mainText {
@@ -88,7 +86,6 @@ div {
   text-align: justify;
   word-spacing: -2px;
   color: black;
-  /*width: 90%;*/
   margin: 0 50px;
   margin-top: 100px;
   font-size: 25px;
@@ -106,21 +103,17 @@ div {
 
 .treats {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 110px;
+  /*margin-right: 20px;*/
   margin-top: 10px;
   width: 60%;
 }
 .dogCat {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 65px;
+  margin-right: 20px;
   margin-top: 30px;
   width: 76%;
-  /*margin-bottom: 14px;*/
-}
-.clearfix {
-  clear: both;
 }
 
 .sectionTextRight {
@@ -134,28 +127,31 @@ div {
 }
 
 /* For mobile phones: */
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  /* Styles */
+
   .sectionText {
-    font-size: 14px;
+    font-size: 24px;
   }
   .sectionTextRight {
     font-size: 14px;
   }
   .mainText {
-    font-size: 9px;
+    font-size: 15px;
+    margin-left: 50px;
   }
   .sectionTextRight {
-    font-size: 15px;
+    font-size: 25px;
   }
   .rightSidetext2 {
-    font-size: 11px;
-    margin-left: -9px;
-    margin-right: -40px;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-right: 40px;
   }
   .rightSidetext {
-    font-size: 11px;
-    margin-left: -9px;
-    margin-right: -40px;
+    font-size: 15px;
+    margin-left: 9px;
+    margin-right: 40px;
   }
   .textParagraph {
     text-align: center;
@@ -165,9 +161,11 @@ div {
   .dogCat {
     /*margin-top: 0;*/
     margin-bottom: 5px;
-    width: 100%;
+    width: 70%;
+    margin-left: 65px;
   }
   .treats {
-    width: 100%;
+    width: 70%;
+    margin-left: 35px;
   }
 }
